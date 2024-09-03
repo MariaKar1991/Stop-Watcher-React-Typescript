@@ -25,7 +25,7 @@ const Main: React.FC = () => {
   return (
     <main className="flex flex-col items-center justify-center py-8">
       <WatcherEye />
-      <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-500 font-bold text-white text-4xl mb-10 mt-10">
+      <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-500 font-bold text-4xl mb-10 mt-10">
         Stop Watcher
       </h1>
       <div className="">
