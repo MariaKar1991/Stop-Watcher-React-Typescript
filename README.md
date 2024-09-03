@@ -1,50 +1,22 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + Tailwind CSS Stop Watcher App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React application, built with TypeScript and Tailwind CSS, provides a stopwatch functionality. Users can start, stop, and reset the timer, which clearly displays the current time.
 
-Currently, two official plugins are available:
+## Link to Vercel: 
+https://stop-watcher-react-typescript.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+Timer: Displays the elapsed time in hours, minutes, and seconds.
+Start/Stop Buttons: Users can control the timer's state.
+Reset Button: Resets the timer to zero.
+Conditional Rendering: The "Start" and "Stop" buttons are displayed based on the timer's running state.
+SVG Icon Component: A custom SVG icon is used to enhance the visual appeal of the application.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+React
+TypeScript
+Tailwind CSS
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Happy coding 🚀
